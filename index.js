@@ -10,7 +10,6 @@ const port = process.env.PORT || 3000
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
   const poem = `
         In Toronto's bustling streets, so full of cheer,
         Lives a lass named Lauren, oh so dear.
